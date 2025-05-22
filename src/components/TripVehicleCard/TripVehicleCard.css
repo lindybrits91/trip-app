@@ -1,0 +1,15 @@
+
+.vehicle-info-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+.vehicle-info-card-row {
+    flex: 1 1 100%
+}
+
