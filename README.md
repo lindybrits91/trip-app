@@ -1,12 +1,13 @@
-# React + Vite
+# Trip App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Installation
 
-Currently, two official plugins are available:
+* Install `node`, `npm` and `nvm`.
+* Install Node `22.15.0` by running `nvm install 22.15.0`.
+* Activate the correct Node version for the project by running `nvm use`.
+* Run `npm install`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Spin up the project
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Run `npm run dev` to start the project.
+* To see the app for a specific trip UID, add it into the browser URL as a query parameter. An exmaple would be `http://localhost:5173/?trip_uid=123`.
