@@ -1,0 +1,16 @@
+
+.location-card-on-time {
+    color: black;
+    text-decoration: none;
+}
+
+.location-card-delayed-scheduled-time {
+    color: red;
+    text-decoration: line-through;
+}
+
+.location-card-delayed-time {
+    color: red;
+    text-decoration: none;
+    margin-left: 5px;
+}

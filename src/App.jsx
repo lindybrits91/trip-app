@@ -12,7 +12,7 @@ function App() {
     const trip_uid = searchParams.get('trip_uid');
     const { data, isLoading, error } = useTrip(trip_uid);
 
-    if (isLoading) return <div>Loading...</div>;
+    if (isLoading) return <div>Loading...</div>; // this is a placeholder for the loading state
     if (error) return <ErrorPage />;
 
     const { tripInfo, tripVehicle } = data;
@@ -22,6 +22,12 @@ function App() {
             <TripInfoCard tripInfo={tripInfo} />
             <LocationsCard tripInfo={tripInfo} tripVehicle={tripVehicle} />
             <TripVehicleCard tripVehicle={tripVehicle} />
+            <a
+                className="icons-attribute-link"
+                href="https://www.flaticon.com/authors/boris-farias"
+            >
+                * Icons by Boris Farias
+            </a>
         </div>
     );
 }
